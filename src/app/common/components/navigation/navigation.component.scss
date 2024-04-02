@@ -1,0 +1,21 @@
+.nav-main {
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &>div{
+        margin: 0 10px;
+        font-size: 18px;
+        color: #ccc;
+        cursor: pointer;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+<div class="nav-main">
+    <div *ngFor="let item of navigationTabs" (click)="navTo($event, item)">
+        {{item?.label}}
+    </div>
+</div>
